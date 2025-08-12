@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{119622AD-F847-4203-B00D-E2FE6CDAE62D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{F8CDA50A-4649-42D7-A4B9-853E41364180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{DD287884-F5BB-466B-9A97-00E0CD4A5A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SingletonPattern", "01_SingletonPattern\01_SingletonPattern.csproj", "{E49EDA66-0BFA-45D7-81A4-53615CED1128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E49EDA66-0BFA-45D7-81A4-53615CED1128} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
+	EndGlobalSection
+EndGlobal
