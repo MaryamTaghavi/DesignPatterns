@@ -30,6 +30,7 @@ public sealed class Singleton
         Console.WriteLine("--Exit now from private constructor.");
     }
 
+    // روش اول : static constructor
     static Singleton()
     {
         Console.WriteLine("-Static constructor is called.");
@@ -68,6 +69,7 @@ public sealed class Singleton2
     {
         if (Instance == null)
         {
+            // روش دوم : static initiialization
             Instance = new Singleton2();
         }
         return Instance;
