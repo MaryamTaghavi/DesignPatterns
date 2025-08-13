@@ -1,0 +1,60 @@
+﻿// Shallow copy => کپی سطحی یعنی به هنگام کپی فقط سطح اول کپی شود، اگر متغیر
+// reference type موجود بود فقط اشاره گر به حافظه کپی میشود پس هر تغییر در اولی روی دومی هم اثر میگذارد
+
+var p1 = new Person { Name = "Alice", Address = new Address { City = "Berlin" } };
+var p2 = p1.ShallowCopy();
+
+p2.Name = "Bob";              // فقط روی p2 اثر دارد
+p2.Address.City = "Hamburg";  // روی هر دو اثر دارد!
+
+try
+{
+    Console.WriteLine("p1 Address in shallow copy : {0}", p1.Address.City);
+    Console.WriteLine("p2 Address in shallow copy : {0}", p2.Address.City);
+
+
+    var p3 = new Person1 { Name = "Alice", Address = new Address { City = "Berlin" } };
+    var p4 = p3.DeepCopy();
+
+    p4.Address.City = "Hamburg"; // Berlin (تغییر نکرد)
+
+    Console.WriteLine("p3 Address in deep copy : {0}", p3.Address.City);
+    Console.WriteLine("p4 Address in deep copy : {0}", p4.Address.City);
+}
+catch (Exception ex)
+{
+}
+Console.ReadLine();
+
+public class Address
+{
+    public string City { get; set; }
+}
+
+public class Person
+{
+    public string Name { get; set; }
+    public Address Address { get; set; }
+
+    public Person ShallowCopy()
+    {
+        return (Person)this.MemberwiseClone(); // کپی سطحی
+    }
+}
+
+// Deep copy => یعنی کپی عمیق، کاملا وابستگی کپی با اولی از بین میرود و هر تغییری در اولی روی دومی اثری نمیگذارد.
+
+public class Person1
+{
+    public string Name { get; set; }
+    public Address Address { get; set; }
+
+    public Person1 DeepCopy()
+    {
+        return new Person1
+        {
+            Name = this.Name,
+            Address = new Address { City = this.Address.City } // کپی جداگانه
+        };
+    }
+}
