@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "Struc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{DD287884-F5BB-466B-9A97-00E0CD4A5A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SingletonPattern", "01_SingletonPattern\01_SingletonPattern.csproj", "{E49EDA66-0BFA-45D7-81A4-53615CED1128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_SingletonPattern", "01_SingletonPattern\01_SingletonPattern.csproj", "{E49EDA66-0BFA-45D7-81A4-53615CED1128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyInitialization", "LazyInitialization\LazyInitialization.csproj", "{47E2FCD9-8D49-40C1-86C5-73051B2CE38F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E49EDA66-0BFA-45D7-81A4-53615CED1128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E2FCD9-8D49-40C1-86C5-73051B2CE38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E2FCD9-8D49-40C1-86C5-73051B2CE38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E2FCD9-8D49-40C1-86C5-73051B2CE38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E2FCD9-8D49-40C1-86C5-73051B2CE38F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E49EDA66-0BFA-45D7-81A4-53615CED1128} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
+		{47E2FCD9-8D49-40C1-86C5-73051B2CE38F} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
