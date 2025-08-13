@@ -15,7 +15,7 @@
 namespace SingletonPatternUsingStaticConstructor;
 
 
-// At the first
+// First way
 public sealed class Singleton
 {
 
@@ -50,7 +50,7 @@ public sealed class Singleton
     public static int MyInt = 25;
 }
 
-// At the second
+// Second way
 public sealed class Singleton2
 {
 
@@ -71,6 +71,39 @@ public sealed class Singleton2
         {
             // روش دوم : static initiialization
             Instance = new Singleton2();
+        }
+        return Instance;
+    }
+
+    public static int MyInt = 25;
+}
+
+// Third way
+// در روش دوم ممکن است همزمانی رخ دهد برای حل این مشکل روش زیر را پیاده سازی میکنیم
+public sealed class Singleton3
+{
+
+    private static Singleton3 Instance;
+    private static object lockObject = new object();
+    private static int TotalInstances;
+
+    private Singleton3()
+    {
+    }
+
+    public static Singleton3 GetInstance()
+    {
+        // first check
+        if (Instance == null)
+        {
+            lock (lockObject)
+            {
+                // second(double) check
+                if (Instance == null)
+                {
+                    Instance = new Singleton3();
+                }
+            }
         }
         return Instance;
     }
