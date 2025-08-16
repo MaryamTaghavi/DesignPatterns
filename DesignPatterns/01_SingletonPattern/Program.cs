@@ -1,16 +1,16 @@
 ﻿// Ensure a class has only one instance, and provide a global point of access to it.
 
-// Properties :
-// 1) The class that we define instance must be sealed
-// 2) The variable must be private 
-// 3) We define static method to get that private variable
-// 4) The instance must be static because we must create one and access that from others
+/* Properties :
+ 1) The class that we define instance must be sealed
+ 2) The variable must be private 
+ 3) We define static method to get that private variable
+ 4) The instance must be static because we must create one and access that from others */
 
-// Static constructor :
-// 1) Must be parameterless
-// 2) It doesn't have access modifier
-// 3) Just run for once.
-// 4) We can not call it.
+/* Static constructor :
+ 1) Must be parameterless
+ 2) It doesn't have access modifier
+ 3) Just run for once.
+ 4) We can not call it. */
 
 namespace SingletonPatternUsingStaticConstructor;
 
