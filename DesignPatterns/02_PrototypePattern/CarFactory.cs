@@ -10,6 +10,8 @@ public class CarFactory
     }
     public BasicCar GetNano()
     {
+        // برای حل مشکل multithreading
+
         if (nano != null)
         {
             // Nano was created earlier.
@@ -29,6 +31,8 @@ public class CarFactory
 
     public BasicCar GetFord()
     {
+        // برای حل مشکل multithreading
+
         if (ford != null)
         {
             // Ford was created earlier.
