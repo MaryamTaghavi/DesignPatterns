@@ -1,4 +1,4 @@
-﻿namespace _02_PrototypePattern;
+﻿namespace _02_04_Serialization;
 
 public class Person
 {

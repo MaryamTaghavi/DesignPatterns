@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace _02_PrototypePattern;
+namespace _02_04_Serialization;
 
 public static class JsonClass
 {
