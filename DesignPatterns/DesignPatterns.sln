@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_SingletonPattern", "01_S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_01_LazyInitialization", "LazyInitialization\01_01_LazyInitialization.csproj", "{47E2FCD9-8D49-40C1-86C5-73051B2CE38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_PrototypePattern", "02_PrototypePattern\02_PrototypePattern.csproj", "{1241DB66-4BAD-4BA7-84ED-2372D4E2E560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_PrototypePattern", "02_PrototypePattern\02_PrototypePattern.csproj", "{1241DB66-4BAD-4BA7-84ED-2372D4E2E560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_01_ShallowCopy&DeepCopy", "02_01_ShallowCopy&DeepCopy\02_01_ShallowCopy&DeepCopy.csproj", "{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_01_ShallowCopy&DeepCopy", "02_01_ShallowCopy&DeepCopy\02_01_ShallowCopy&DeepCopy.csproj", "{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_02_Demonstration3", "02_02_Demonstration3\02_02_Demonstration3.csproj", "{FA4F6F71-4926-448C-A023-F9DA30729577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4F6F71-4926-448C-A023-F9DA30729577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4F6F71-4926-448C-A023-F9DA30729577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4F6F71-4926-448C-A023-F9DA30729577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4F6F71-4926-448C-A023-F9DA30729577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{47E2FCD9-8D49-40C1-86C5-73051B2CE38F} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{1241DB66-4BAD-4BA7-84ED-2372D4E2E560} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
+		{FA4F6F71-4926-448C-A023-F9DA30729577} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
