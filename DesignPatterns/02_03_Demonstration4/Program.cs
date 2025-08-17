@@ -1,0 +1,20 @@
+﻿using _02_03_Demonstration4;
+
+Console.WriteLine("***A simple copy constructor demo***\n");
+EmpAddress initialAddress = new EmpAddress("21, abc Road, USA");
+Employee emp = new Employee(1, "John", initialAddress);
+Console.WriteLine("The details of emp is as follows:");
+Console.WriteLine(emp);
+Console.WriteLine("\n Copying from emp1 to empClone now.");
+Employee empClone = new Employee(emp);
+Console.WriteLine("The details of empClone is as follows:");
+Console.WriteLine(empClone);
+Console.WriteLine("\nNow changing the id,name and address of empClone.");
+empClone.Name = "Sam";
+empClone.Id = 2;
+empClone.EmpAddress.Address = "221, xyz Road, Canada";
+Console.WriteLine("The details of emp is as follows:");
+Console.WriteLine(emp);
+Console.WriteLine("The details of empClone is as follows:");
+Console.WriteLine(empClone);
+Console.ReadKey();
