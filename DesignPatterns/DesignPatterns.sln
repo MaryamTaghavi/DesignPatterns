@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_PrototypePattern", "02_P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_01_ShallowCopy&DeepCopy", "02_01_ShallowCopy&DeepCopy\02_01_ShallowCopy&DeepCopy.csproj", "{D84FC7B7-8097-480C-9BAF-61FC8C4BB90B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_02_Demonstration3", "02_02_Demonstration3\02_02_Demonstration3.csproj", "{FA4F6F71-4926-448C-A023-F9DA30729577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_02_Demonstration3", "02_02_Demonstration3\02_02_Demonstration3.csproj", "{FA4F6F71-4926-448C-A023-F9DA30729577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_03_Demonstration4", "02_03_Demonstration4\02_03_Demonstration4.csproj", "{3594702F-9627-46C7-BC2C-EF7E9FD78709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_03_Demonstration4", "02_03_Demonstration4\02_03_Demonstration4.csproj", "{3594702F-9627-46C7-BC2C-EF7E9FD78709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_04_Serialization", "02_04_Serialization\02_04_Serialization.csproj", "{A8511B61-4EFD-4A8A-9D00-7AB937B7E6B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_04_Serialization", "02_04_Serialization\02_04_Serialization.csproj", "{A8511B61-4EFD-4A8A-9D00-7AB937B7E6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BuilderPattern", "03_BuilderPattern\03_BuilderPattern.csproj", "{FB5231D1-AE4E-458C-83E7-3EF7447CED14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A8511B61-4EFD-4A8A-9D00-7AB937B7E6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8511B61-4EFD-4A8A-9D00-7AB937B7E6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8511B61-4EFD-4A8A-9D00-7AB937B7E6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5231D1-AE4E-458C-83E7-3EF7447CED14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5231D1-AE4E-458C-83E7-3EF7447CED14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5231D1-AE4E-458C-83E7-3EF7447CED14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5231D1-AE4E-458C-83E7-3EF7447CED14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{FA4F6F71-4926-448C-A023-F9DA30729577} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{3594702F-9627-46C7-BC2C-EF7E9FD78709} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{A8511B61-4EFD-4A8A-9D00-7AB937B7E6B9} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
+		{FB5231D1-AE4E-458C-83E7-3EF7447CED14} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
