@@ -1,8 +1,7 @@
 ﻿using _03_01_ChainigMethod;
 
-Product customCar;
-
 Console.WriteLine("***Builder Pattern alternative implementation.* **");
+
 /* Making a custom car (through builder)
 Note the steps:
 Step1:Get a builder object with required parameters
@@ -11,7 +10,7 @@ optional fields also.
 Step3:Invoke the ConstructCar() method to get the final car.
 */
 
-customCar = new Car("Suzuki Swift").StartUpOperations()
+Product customCar = new Car("Suzuki Swift").StartUpOperations()
 //will take default message
 .AddHeadlights(6)
 .InsertWheels()//Will consider default value
