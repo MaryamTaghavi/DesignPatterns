@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace _04_01_BankImplements;
 
-namespace _04_01_BankImplements
+public class Saman : IPaymentGateway
 {
-    internal class Saman
+    public void Pay(decimal amount)
     {
+        throw new NotImplementedException();
     }
 }
