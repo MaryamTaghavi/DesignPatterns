@@ -17,3 +17,10 @@ AnimalFactory dogFactory = new DogFactory();
 IAnimal dog = dogFactory.CreateAnimal();
 dog.AboutMe();
 Console.ReadKey();
+
+
+
+/*
+مراحل ساخت Factory Pattern :
+1) همه محصولات باید از یک اینترفیس واحد ارث بری کنند که این اینترفیس باید متدهایی که هر محصول نیاز دارد را پیاده کند.
+ */
