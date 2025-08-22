@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_01_ChainigMethod", "Crea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_FactoryMethodPattern", "CreatinalPatterns\04_FactoryMethodPattern\04_FactoryMethodPattern.csproj", "{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_01_BankImplements", "CreatinalPatterns\04_01_BankImplements\04_01_BankImplements.csproj", "{3E675D50-5858-4734-A2C4-80D80D1A0F7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_01_PaymentGateways", "CreatinalPatterns\04_01_BankImplements\04_01_PaymentGateways.csproj", "{3E675D50-5858-4734-A2C4-80D80D1A0F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
