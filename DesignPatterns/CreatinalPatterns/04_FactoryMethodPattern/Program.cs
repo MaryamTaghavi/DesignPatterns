@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/* این پترن به subclass ها اجازه میدهد که شی را انتخاب و ایجاد کنند
+ فرض کنید کارخانه تولید animal داریم
+یک شی به نام CatFactory و دیگری به نام TiggerFactory است.
+ */
