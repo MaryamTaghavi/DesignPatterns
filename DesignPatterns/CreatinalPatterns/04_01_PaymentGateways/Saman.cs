@@ -4,6 +4,6 @@ public class Saman : IPaymentGateway
 {
     public void Pay(decimal amount)
     {
-        Console.WriteLine($"پرداخت {amount} از طریق Saman");
+        Console.WriteLine($"Pay {amount} by Saman");
     }
 }

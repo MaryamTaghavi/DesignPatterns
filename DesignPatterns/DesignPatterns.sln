@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_01_ChainigMethod", "Crea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_FactoryMethodPattern", "CreatinalPatterns\04_FactoryMethodPattern\04_FactoryMethodPattern.csproj", "{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_01_PaymentGateways", "CreatinalPatterns\04_01_BankImplements\04_01_PaymentGateways.csproj", "{3E675D50-5858-4734-A2C4-80D80D1A0F7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_04_PaymentGateways", "CreatinalPatterns\04_04_PaymentGateways\04_04_PaymentGateways.csproj", "{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,10 +77,10 @@ Global
 		{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E675D50-5858-4734-A2C4-80D80D1A0F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E675D50-5858-4734-A2C4-80D80D1A0F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E675D50-5858-4734-A2C4-80D80D1A0F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E675D50-5858-4734-A2C4-80D80D1A0F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,7 +96,7 @@ Global
 		{BF0B3DA2-D43A-4326-99E8-4C5FEAD8E5BF} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{6C3B9A6C-7B02-414D-8AE2-BA7C3BE15B92} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
-		{3E675D50-5858-4734-A2C4-80D80D1A0F7F} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
+		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}

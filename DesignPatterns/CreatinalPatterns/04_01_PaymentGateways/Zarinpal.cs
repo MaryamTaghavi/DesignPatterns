@@ -4,6 +4,6 @@ public class Zarinpal : IPaymentGateway
 {
     public void Pay(decimal amount)
     {
-        Console.WriteLine($"پرداخت {amount} از طریق Zarinpal");
+        Console.WriteLine($"Pay {amount} by Zarinpal");
     }
 }

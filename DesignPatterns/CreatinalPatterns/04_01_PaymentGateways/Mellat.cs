@@ -4,6 +4,6 @@ public class Mellat : IPaymentGateway
 {
     public void Pay(decimal amount)
     {
-        Console.WriteLine($"Pay {amount} by Mellat");
+        Console.WriteLine($"Pay {amount} with Mellat");
     }
 }
