@@ -4,6 +4,6 @@ public class DogFactory : AnimalFactory
 {
     public override IAnimal CreateAnimal()
     {
-        return new Tiger();
+        return new Dog ();
     }
 }

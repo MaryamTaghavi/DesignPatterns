@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\02_01_ShallowCopy&amp;DeepCopy\02_01_ShallowCopy&amp;DeepCopy.csproj" />
+  </ItemGroup>
+
 </Project>
