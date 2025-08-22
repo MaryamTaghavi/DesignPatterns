@@ -4,6 +4,6 @@ public class SamanFactory : PaymentGatewayFactory
 {
     public override IPaymentGateway CreatePaymentGateway()
     {
-        return new Mellat();
+        return new Saman();
     }
 }

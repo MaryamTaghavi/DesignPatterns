@@ -4,6 +4,6 @@ public class Mellat : IPaymentGateway
 {
     public void Pay(decimal amount)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"پرداخت {amount} از طریق Mellat");
     }
 }

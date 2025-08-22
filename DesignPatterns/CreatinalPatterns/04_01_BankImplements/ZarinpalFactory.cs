@@ -4,6 +4,6 @@ public class ZarinpalFactory : PaymentGatewayFactory
 {
     public override IPaymentGateway CreatePaymentGateway()
     {
-        return new Mellat();
+        return new Zarinpal();
     }
 }
