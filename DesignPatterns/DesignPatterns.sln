@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "Behav
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_01_LazyInitialization", "CreatinalPatterns\01_01_LazyInitialization\01_01_LazyInitialization.csproj", "{F8AC7D04-0234-4041-9058-94BCAD9AAC2F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_SingletonPattern", "CreatinalPatterns\01_SingletonPattern\01_SingletonPattern.csproj", "{2EDD376B-52C6-4CD5-BFDB-83650C7B8AE6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_PrototypePattern", "CreatinalPatterns\02_PrototypePattern\02_PrototypePattern.csproj", "{B088262B-BA47-46D8-BE89-464482551D70}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_BuilderPattern", "CreatinalPatterns\03_BuilderPattern\03_BuilderPattern.csproj", "{0D1B9AB0-D5CC-4E47-840C-E6C9F15C1CBD}"
@@ -31,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_FactoryMethodPattern", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_04_PaymentGateways", "CreatinalPatterns\04_04_PaymentGateways\04_04_PaymentGateways.csproj", "{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_00_SingletonPattern", "CreatinalPatterns\01_00_SingletonPattern\01_00_SingletonPattern.csproj", "{B09DD6A1-E264-4E86-A9F8-32889C839E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +41,6 @@ Global
 		{F8AC7D04-0234-4041-9058-94BCAD9AAC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8AC7D04-0234-4041-9058-94BCAD9AAC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8AC7D04-0234-4041-9058-94BCAD9AAC2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2EDD376B-52C6-4CD5-BFDB-83650C7B8AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EDD376B-52C6-4CD5-BFDB-83650C7B8AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2EDD376B-52C6-4CD5-BFDB-83650C7B8AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EDD376B-52C6-4CD5-BFDB-83650C7B8AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B088262B-BA47-46D8-BE89-464482551D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B088262B-BA47-46D8-BE89-464482551D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B088262B-BA47-46D8-BE89-464482551D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,13 +77,16 @@ Global
 		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09DD6A1-E264-4E86-A9F8-32889C839E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09DD6A1-E264-4E86-A9F8-32889C839E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09DD6A1-E264-4E86-A9F8-32889C839E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09DD6A1-E264-4E86-A9F8-32889C839E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F8AC7D04-0234-4041-9058-94BCAD9AAC2F} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
-		{2EDD376B-52C6-4CD5-BFDB-83650C7B8AE6} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{B088262B-BA47-46D8-BE89-464482551D70} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{0D1B9AB0-D5CC-4E47-840C-E6C9F15C1CBD} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{2E5F344E-9E1E-4AB2-B5B1-32CA8B737621} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
@@ -97,6 +96,7 @@ Global
 		{6C3B9A6C-7B02-414D-8AE2-BA7C3BE15B92} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{63BF3ACA-FABC-4276-ACC0-8C8E6BD82CDA} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 		{AF1005CA-E5A3-40FB-BC3D-794D74770A5A} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
+		{B09DD6A1-E264-4E86-A9F8-32889C839E29} = {119622AD-F847-4203-B00D-E2FE6CDAE62D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
