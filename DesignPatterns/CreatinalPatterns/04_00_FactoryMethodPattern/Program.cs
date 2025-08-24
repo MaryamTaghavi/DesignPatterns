@@ -5,6 +5,8 @@
 
 using _04_FactoryMethodPattern;
 
+// Way 1 :
+
 Console.WriteLine("***Factory Pattern Demo.***\n");
 // Creating a Tiger Factory
 AnimalFactory tigerFactory = new TigerFactory();
@@ -16,6 +18,19 @@ AnimalFactory dogFactory = new DogFactory();
 // Creating a dog using the Factory Method
 IAnimal dog = dogFactory.CreateAnimal();
 dog.AboutMe();
+
+// Way 2 :
+
+Console.WriteLine("***Factory Pattern2 Demo.***\n");
+// Creating a Tiger Factory
+AnimalFactory tigerFactory1 = new TigerFactory();
+// Creating a tiger using the Factory Method
+IAnimal tiger1 = tigerFactory.MakeAnimal();
+// Creating a DogFactory
+AnimalFactory dogFactory1 = new DogFactory();
+// Creating a dog using the Factory Method
+IAnimal dog1 = dogFactory.MakeAnimal();
+
 Console.ReadKey();
 
 
