@@ -1,5 +1,6 @@
 ﻿namespace _05_00_AbstractFactoryPattern;
 
+// Factory provider
 public class FactoryProvider
 {
     public static IInquiryFactory GetInquiryFactory(string factoryType)
