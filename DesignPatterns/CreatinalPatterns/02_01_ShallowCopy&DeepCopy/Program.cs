@@ -32,6 +32,7 @@ catch (Exception ex)
 }
 Console.ReadLine();
 
+// Example 1
 public class Address
 {
     public string City { get; set; }
@@ -62,5 +63,41 @@ public class Person1
             Name = this.Name,
             Address = new Address { City = this.Address.City } // کپی جداگانه
         };
+    }
+}
+
+// Example 2
+
+public class ShallowDocument
+{
+    public List<string> Pages { get; set; }
+
+    // Instance
+    public ShallowDocument(List<string> Pages)
+    {
+        this.Pages = Pages;
+    }
+
+    // Shallow Copy
+    public ShallowDocument(ShallowDocument newObject)
+    {
+        this.Pages = newObject.Pages;
+    }
+}
+
+public class DeepDocument
+{
+    public List<string> Pages { get; set; }
+
+    // Instance
+    public DeepDocument(List<string> Pages)
+    {
+        this.Pages = Pages;
+    }
+
+    // Deep Copy
+    public DeepDocument(DeepDocument newObject)
+    {
+        this.Pages = new List<string> ( newObject.Pages );
     }
 }
