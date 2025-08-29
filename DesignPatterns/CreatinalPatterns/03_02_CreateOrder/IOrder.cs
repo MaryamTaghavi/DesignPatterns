@@ -2,8 +2,8 @@
 
 public interface IOrder
 {
-    double CreateDiscount();
-    string CreateAddress();
-    double CreatePayment();
+    IOrder CreateDiscount();
+    IOrder CreateAddress();
+    IOrder CreatePayment();
     Order CreateOrder();
 }

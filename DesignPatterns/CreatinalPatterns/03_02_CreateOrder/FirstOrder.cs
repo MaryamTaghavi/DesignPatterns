@@ -2,23 +2,32 @@
 
 public class FirstOrder : IOrder
 {
-    public string CreateAddress()
+    Order order;
+
+    public FirstOrder()
     {
-        throw new NotImplementedException();
+        order = new Order();
+    }
+    public IOrder CreateAddress()
+    {
+        order.Address = "یزد، مهرآوران";
+        return this ;
     }
 
-    public double CreateDiscount()
+    public IOrder CreateDiscount()
     {
-        throw new NotImplementedException();
+        order.Discount = 2.3;
+        return this;
     }
 
-    public double CreatePayment()
+    public IOrder CreatePayment()
     {
-        throw new NotImplementedException();
+        order.Payment = 1500000;
+        return this;
     }
 
     public Order CreateOrder()
     {
-        throw new NotImplementedException();
+        return order;
     }
 }
