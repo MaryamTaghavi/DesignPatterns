@@ -12,6 +12,14 @@
  3) Just run for once.
  4) We can not call it. */
 
+/*
+معایب این پترن :
+1) در مباحث چند تردی ممکنه مدیریت آن مشکل ساز بشود.
+2) چون یک کلاس هم مسئولیت ایجاد و هم نگهداری یک نمونه را به عهده دارد اصل single responsibility زیر سوال میرود.
+3) scalibility (گسترش) ممکن است مشکل ایجاد کند.
+4) تست نویسی برای متغییر singletone مشکل است.
+ */
+
 namespace SingletonPatternUsingStaticConstructor;
 
 
