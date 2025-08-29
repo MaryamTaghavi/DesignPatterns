@@ -2,6 +2,7 @@
 by copying or cloning an instance of an existing object. */
 
 // Prototype Pattern یعنی ساخت object جدید از روی نمونه موجود بدون اینکه constructor اصلی صدا زده بشه.
+// وقتی ساخت شی جدید پر هزینه است و یا پیچیده است از این پترن استفاده میشود.
 
 using _02_PrototypePattern;
 
