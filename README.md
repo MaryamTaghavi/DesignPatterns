@@ -1,26 +1,18 @@
-# CSharpFeatures
+# DesignPattern
 
-این ریپازیتوری شامل نمونه‌ها، توضیحات و تمرین‌های مربوط به ویژگی‌ها و قابلیت‌های زبان برنامه‌نویسی **C#** بر اساس کتاب **Pro C# 10 With .Net6** نوشته **Andrew Troelsen , Phil Japikse** است.
+این ریپازیتوری شامل انواع مختلف designpattern های Creational، Structural، Behavioral است.
 
 ---
 
 ## هدف پروژه
 
-- مرور و یادگیری ویژگی‌های جدید و قدیمی C#  
-- ارائه مثال‌های عملی برای درک بهتر مفاهیم  
-- کمک به آمادگی برای مصاحبه‌های فنی و پروژه‌های واقعی
+- ارائه مثال های مختلف از design patter های مختلف است.
 
 ---
 
 ## موضوعات پوشش داده شده
 
-- انواع داده‌ها (Value Types, Reference Types)  
-- Delegates و Events  
-- LINQ و Lambda Expressions  
-- Async/Await و برنامه‌نویسی غیرهمزمان  
-- Pattern Matching  
-- Records و Immutable Types
-- ...
+- Creational Pattern : پترن هایی که در ایجاد اشیا نقش دارند. Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
 
 ---
 
