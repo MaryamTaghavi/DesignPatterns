@@ -120,11 +120,13 @@ public class Book
     public List<Chapter> Chapters { get; set; }
 
     // متد Clone (Prototype) باید اینجا باشه
-    public Book Clone(Book oldObject)
+    public Book Clone()
     {
         var newBook = new Book();
-        newBook.Name = oldObject.Name;
-        foreach(var item in oldObject.Chapters)
+        newBook.Chapters = new List<Chapter>();
+
+        newBook.Name = this.Name;
+        foreach(var item in this.Chapters)
         {
             newBook.Chapters.Add(new Chapter()
             {
