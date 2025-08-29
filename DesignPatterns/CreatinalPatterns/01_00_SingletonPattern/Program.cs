@@ -20,6 +20,11 @@
 4) تست نویسی برای متغییر singletone مشکل است.
  */
 
+/*
+به سینگلتون گه گاه Anti-Pattern هم میگویند
+چون اگر به جا استفاده نشود ممکن است مخرب باشد
+ */
+
 namespace SingletonPatternUsingStaticConstructor;
 
 
