@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_01_LazyInitialization", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_04_Serialization", "CreatinalPatterns\02_04_Serialization\02_04_Serialization.csproj", "{2E5F344E-9E1E-4AB2-B5B1-32CA8B737621}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_02_Demonestration3", "CreatinalPatterns\02_02_Demonstration3\02_02_Demonestration3.csproj", "{7EA5F8DE-4F4A-4673-9FD7-DDB2CD685BA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_02_Demonstration3", "CreatinalPatterns\02_02_Demonstration3\02_02_Demonstration3.csproj", "{7EA5F8DE-4F4A-4673-9FD7-DDB2CD685BA3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_03_Demonestration4", "CreatinalPatterns\02_03_Demonestration4\02_03_Demonestration4.csproj", "{54595A50-449E-4182-8ECF-B2E23D3180C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_03_Demonstration4", "CreatinalPatterns\02_03_Demonestration4\02_03_Demonstration4.csproj", "{54595A50-449E-4182-8ECF-B2E23D3180C5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_01_ShallowCopy&DeepCopy", "CreatinalPatterns\02_01_ShallowCopy&DeepCopy\02_01_ShallowCopy&DeepCopy.csproj", "{BF0B3DA2-D43A-4326-99E8-4C5FEAD8E5BF}"
 EndProject
@@ -33,9 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_01_PaymentGateways", "Cr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_02_Demonstration2", "CreatinalPatterns\04_02_Demonstration2\04_02_Demonstration2.csproj", "{E8F960DF-6207-44E5-93B6-DB5F89C2CF0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_00_SimpleFactoryPattern", "CreatinalPatterns\24_00_SimpleFactoryPattern\24_00_SimpleFactoryPattern.csproj", "{4076A646-C632-4470-97C1-52608BD203A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24_00_SimpleFactoryPattern", "CreatinalPatterns\24_00_SimpleFactoryPattern\24_00_SimpleFactoryPattern.csproj", "{4076A646-C632-4470-97C1-52608BD203A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_00_AbstractFactoryPattern", "CreatinalPatterns\05_00_AbstractFactoryPattern\05_00_AbstractFactoryPattern.csproj", "{BA7093E0-81EF-426A-BA60-0202CFE321D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_00_AbstractFactoryPattern", "CreatinalPatterns\05_00_AbstractFactoryPattern\05_00_AbstractFactoryPattern.csproj", "{BA7093E0-81EF-426A-BA60-0202CFE321D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
