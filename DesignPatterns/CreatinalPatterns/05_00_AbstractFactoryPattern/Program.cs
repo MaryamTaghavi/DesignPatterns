@@ -1,4 +1,8 @@
-﻿using _05_00_AbstractFactoryPattern;
+﻿/*
+فکتوری بر روی ساخت یک شی خاص تمرکز دارد و ابسترکت فکتوری روی خانواده ای از اشیا تمرکز دارد
+ */
+
+using _05_00_AbstractFactoryPattern;
 
 // Client
 
