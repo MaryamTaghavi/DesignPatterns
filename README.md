@@ -13,6 +13,7 @@
 ## موضوعات پوشش داده شده
 
 - Creational Pattern : پترن هایی که در ایجاد اشیا نقش دارند. Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+1) Singleton Pattern : Logger، ConfigurationManager، Cache
 
 ---
 
