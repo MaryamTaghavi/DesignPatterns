@@ -101,3 +101,37 @@ public class DeepDocument
         this.Pages = new List<string> ( newObject.Pages );
     }
 }
+
+public class Page
+{
+    public string Content { get; set; }
+}
+
+public class Chapter
+{
+    public string Title { get; set; }
+    public List<Page> Pages { get; set; }
+}
+
+//Deep Copy from Book
+public class Book
+{
+    public string Name { get; set; }
+    public List<Chapter> Chapters { get; set; }
+
+    // متد Clone (Prototype) باید اینجا باشه
+    public Book Clone(Book oldObject)
+    {
+        var newBook = new Book();
+        newBook.Name = oldObject.Name;
+        foreach(var item in oldObject.Chapters)
+        {
+            newBook.Chapters.Add(new Chapter()
+            {
+                Pages = item.Pages.Select(p => new Page { Content = p.Content }).ToList(),
+                Title = item.Title
+            });
+        }
+        return newBook;
+    }
+}
