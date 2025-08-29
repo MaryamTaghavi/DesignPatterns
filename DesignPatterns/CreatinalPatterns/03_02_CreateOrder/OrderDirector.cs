@@ -4,10 +4,7 @@ public class OrderDirector
 {
     private readonly IOrder _builder;
 
-    public OrderDirector(IOrder builder)
-    {
-        _builder = builder;
-    }
+    public OrderDirector(IOrder builder) => _builder = builder;
 
     public Order Build()
     {
