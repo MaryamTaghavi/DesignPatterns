@@ -2,8 +2,8 @@
 
 public class ItalianPizza : IPizza
 {
-    Pizza pizza;
-    ItalianPizza()
+    public Pizza pizza;
+    public ItalianPizza()
     {
         pizza = new Pizza();
     }

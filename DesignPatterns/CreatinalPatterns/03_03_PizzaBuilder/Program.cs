@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _03_03_PizzaBuilder;
+
+var director = new PizzaDirector(new ItalianPizza());
+Pizza pizza = director.Build();
+
+Console.ReadLine();
