@@ -1,12 +1,12 @@
 # DesignPattern
 
-این ریپازیتوری شامل انواع مختلف designpattern های Creational، Structural، Behavioral است.
+این ریپازیتوری شامل انواع مختلف DesignPattern های Creational، Structural، Behavioral است.
 
 ---
 
 ## هدف پروژه
 
-- ارائه مثال های مختلف از design patter های مختلف است.
+- ارائه مثال های مختلف از Design Pattern های مختلف است.
 
 ---
 
