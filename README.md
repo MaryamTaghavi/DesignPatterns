@@ -16,7 +16,7 @@
 1) Singleton Pattern : Logger، ConfigurationManager، Cache
 
 - Structural Patterns : پترن هایی که اشیا ایجاد شده را آماده یک ساختار بزرگتر میکنند. Explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
-- 
+1) Proxy Pattern :
 ---
 
 ## نحوه استفاده
