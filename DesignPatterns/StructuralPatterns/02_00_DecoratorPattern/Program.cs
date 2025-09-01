@@ -11,6 +11,12 @@
 رنگش میکنیم و ...
 */
 
+/*
+عملات streaming یک مثال از این پترن است
+یعنی فایل ها قبل از اینکه read شوند داخل بافر قرار میگیرند بافر
+یک decorate است.
+ */
+
 using _02_00_DecoratorPattern;
 
 Console.WriteLine("***Decorator pattern Demo***\n");
