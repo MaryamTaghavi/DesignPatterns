@@ -1,6 +1,4 @@
-﻿
-using Microsoft.Extensions.Caching.Memory;
-using System.Reflection;
+﻿using Microsoft.Extensions.Caching.Memory;
 
 namespace _02_02_DecorateWithDI;
 
