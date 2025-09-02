@@ -1,4 +1,10 @@
-﻿using _03_01_Demonstration1;
+﻿/*
+این مثال شامل این است که ورودی ما Rectangle است
+و از یه جایی triangle هم میخواهیم به عنوان ورودی پاس دهیم ولی نمیتوانیم قبلی ها را دست بزنیم
+پس یک آداپتور واسط میسازیم که به عنوان ورودی اولیه مستطیل را بگیرد و بعد تبدیل به مثلث کند.
+ */
+
+using _03_01_Demonstration1;
 
 Console.WriteLine("***Adapter Pattern Demo***\n");
 IRectangle rectangle = new Rectangle(20, 10);
