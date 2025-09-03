@@ -5,7 +5,7 @@
 یک آبجکت (نمونه) از کلاس هدف را در دون خودش نگه میدارد
 2) class adapter
 از اینترفیس و کلاس هدف ارث بری میکند
-
+در واقع multi inheritance را پیاده میکند
 */
 
 // Class Adapter 
@@ -25,7 +25,7 @@ public class Adaptee
     }
 }
 
-// Class Adapter (ارث‌بری)
+// Class Adapter (ارث ‌بری)
 public class ClassAdapter : Adaptee, ITarget
 {
     public void Request()
