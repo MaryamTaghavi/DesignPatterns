@@ -1,4 +1,7 @@
-﻿
+﻿/*
+از اینترفیس و کلاس هدف ارث بری میکند
+در واقع multi inheritance را پیاده میکند
+ */
 OldLamp oldLamp = new OldLamp();
 oldLamp.TurnOn("old");
 

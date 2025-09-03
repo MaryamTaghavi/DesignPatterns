@@ -1,4 +1,5 @@
-﻿
+﻿//یک آبجکت (نمونه) از کلاس هدف را در دون خودش نگه میدارد
+
 OldPrinter oldPrinter = new OldPrinter();
 oldPrinter.Print("old");
 
