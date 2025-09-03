@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_02_DifferentTypesOfAdapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_03_ClassAdapter", "StructuralPatterns\03_03_ClassAdapter\03_03_ClassAdapter.csproj", "{699B97BF-F01A-406F-9644-E876EACBDC89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_04_ObjectAdapter", "StructuralPatterns\03_04_ObjectAdapter\03_04_ObjectAdapter.csproj", "{68452B34-E0BD-4989-AC7F-474F9DD446FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{699B97BF-F01A-406F-9644-E876EACBDC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699B97BF-F01A-406F-9644-E876EACBDC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699B97BF-F01A-406F-9644-E876EACBDC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68452B34-E0BD-4989-AC7F-474F9DD446FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68452B34-E0BD-4989-AC7F-474F9DD446FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68452B34-E0BD-4989-AC7F-474F9DD446FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68452B34-E0BD-4989-AC7F-474F9DD446FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +194,7 @@ Global
 		{1F358356-9018-4866-A0F4-2E4FF47B6CF0} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
 		{19BC4FDC-5608-45A1-90F1-9A5AE193D32F} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
 		{699B97BF-F01A-406F-9644-E876EACBDC89} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
+		{68452B34-E0BD-4989-AC7F-474F9DD446FF} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
