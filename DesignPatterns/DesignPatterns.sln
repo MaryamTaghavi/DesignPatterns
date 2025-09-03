@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_01_DecorateVSInheritance
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_02_DecorateWithDI", "StructuralPatterns\02_02_DecorateWithDI\02_02_DecorateWithDI.csproj", "{083FDD36-C9BE-45EF-8446-A5E1BA71684D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_00_AdapterPattern", "StructuralPatterns\03_00_AdapterPattern\03_00_AdapterPattern.csproj", "{20D70766-5E08-4D74-BF86-5E8F61597B38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_00_AdapterPattern", "StructuralPatterns\03_00_AdapterPattern\03_00_AdapterPattern.csproj", "{20D70766-5E08-4D74-BF86-5E8F61597B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_01_Demonstration1", "StructuralPatterns\03_01_Demonstration1\03_01_Demonstration1.csproj", "{1F358356-9018-4866-A0F4-2E4FF47B6CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_01_Demonstration1", "StructuralPatterns\03_01_Demonstration1\03_01_Demonstration1.csproj", "{1F358356-9018-4866-A0F4-2E4FF47B6CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_02_DifferentTypesOfAdapterPattern", "StructuralPatterns\03_02_DifferentTypesOfAdapterPattern\03_02_DifferentTypesOfAdapterPattern.csproj", "{19BC4FDC-5608-45A1-90F1-9A5AE193D32F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{1F358356-9018-4866-A0F4-2E4FF47B6CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F358356-9018-4866-A0F4-2E4FF47B6CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F358356-9018-4866-A0F4-2E4FF47B6CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BC4FDC-5608-45A1-90F1-9A5AE193D32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BC4FDC-5608-45A1-90F1-9A5AE193D32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BC4FDC-5608-45A1-90F1-9A5AE193D32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BC4FDC-5608-45A1-90F1-9A5AE193D32F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +180,7 @@ Global
 		{083FDD36-C9BE-45EF-8446-A5E1BA71684D} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
 		{20D70766-5E08-4D74-BF86-5E8F61597B38} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
 		{1F358356-9018-4866-A0F4-2E4FF47B6CF0} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
+		{19BC4FDC-5608-45A1-90F1-9A5AE193D32F} = {F8CDA50A-4649-42D7-A4B9-853E41364180}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCC56968-3941-4121-8CA9-161AFCEA5F97}
