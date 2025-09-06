@@ -11,7 +11,7 @@ public class RobotFacade
         robotColor = new RobotColor(color);
     }
 
-    public void CostructRobot()
+    public void ConstructRobot()
     {
         Console.WriteLine("Robot creation through facade starts ...");
         robotBody.MakeRobotBody();
