@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace _04_01_OrderRequest;
 
-namespace _04_01_OrderRequest
+public class Authenticate
 {
-    internal class Authenticate
-    {
-    }
 }
