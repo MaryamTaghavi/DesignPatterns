@@ -1,12 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace _04_00_FacadePattern;
 
-namespace _04_00_FacadePattern
+public class RobotColor
 {
-    internal class RobotColor
+    string color;
+
+    public RobotColor(string color)
     {
+        this.color = color;
+    }
+
+    public void SetColor()
+    {
+        if (color == "steel")
+        {
+            Console.WriteLine($"The default color {color} is set for the robot.");
+        }
+        else
+        {
+            Console.WriteLine($"Painting the robot with your favourite {color} color.");
+        }
+    }
+
+    public void RemoveColor()
+    {
+        Console.WriteLine($"Attemping to remove the colors from the robot.");
     }
 }
