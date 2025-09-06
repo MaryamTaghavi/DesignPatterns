@@ -1,5 +1,18 @@
 ﻿using _04_01_OrderRequest;
 
+/*
+یک اپلیکیشن داشتی که چندین سرویس مختلف داری :
+
+Logging
+
+Caching
+
+Security
+
+می‌خوای یه رابط ساده بسازی که کاربر فقط با یک متد بتونه همه سرویس‌ها رو استفاده کنه، بدون اینکه بدونه هر سرویس چطوری کار می‌کنه.
+ */
+
+
 var orderReq = new OrderRequest();
 
 // -- Without Facade Pattern --
