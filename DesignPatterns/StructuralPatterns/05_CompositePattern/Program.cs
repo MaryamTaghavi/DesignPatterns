@@ -1,6 +1,7 @@
 ﻿using _05_00_CompositePattern;
 
 Console.WriteLine("***Composite Pattern Demo. ***");
+
 #region Mathematics department
 // 2 lecturers work in Mathematics department
 Employee mathTeacher1 = new Employee
@@ -18,8 +19,7 @@ Employee mathTeacher2 = new Employee
 // The college has a Head of Department in Mathematics
 CompositeEmployee hodMaths = new CompositeEmployee
 {
-    Name =
-"Mrs.S.Das",
+    Name ="Mrs.S.Das",
     Dept = "Maths",
     Designation = "HOD-Maths"
 };
