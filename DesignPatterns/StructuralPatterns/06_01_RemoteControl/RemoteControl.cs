@@ -1,9 +1,21 @@
 ﻿namespace _06_01_RemoteControl;
 
-public abstract class RemoteControl
+public class RemoteControl
 {
-    public abstract void TurnOn();
-    public abstract void TurnOff();
-    public abstract void VolumeUp();
-    public abstract void VolumeDown();
+    private IDevice _device;
+
+    public RemoteControl(IDevice device)
+    {
+        _device = device;
+    }
+
+    public void TurnOn()
+    {
+        _device.TurnOn();
+    }
+
+    public void TurnOff()
+    {
+        _device.TurnOff();
+    }
 }
