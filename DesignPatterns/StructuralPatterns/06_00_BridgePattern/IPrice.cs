@@ -4,4 +4,5 @@
 public interface IPrice
 {
     void DisplayDetails(string product);
+    void GetDiscount(int percentage);
 }

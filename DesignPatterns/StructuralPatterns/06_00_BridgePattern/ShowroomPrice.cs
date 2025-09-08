@@ -9,4 +9,9 @@ public class ShowroomPrice : IPrice
     {
         Console.Write($"\n{productType} price at showroom is : 3000$");
     }
+
+    public void GetDiscount(int percentage)
+    {
+        Console.Write($"\nAt showroom, you can get upto {percentage}% discount.");
+    }
 }

@@ -10,7 +10,10 @@ IPrice price = new OnlinePrice();
 eItem.Price = price;
 
 eItem.Details();
+eItem.Discount(5);
+
 // Verifying showroom price
 price = new ShowroomPrice();
 eItem.Price = price;
 eItem.Details();
+eItem.Discount(4);

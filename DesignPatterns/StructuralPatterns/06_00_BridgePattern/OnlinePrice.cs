@@ -9,4 +9,9 @@ public class OnlinePrice : IPrice
     {
         Console.Write($"\n{productType} price at online is : 2000$");
     }
+
+    public void GetDiscount(int percentage)
+    {
+        Console.Write($"\nAt online, you can get upto {percentage}% discount.");
+    }
 }
