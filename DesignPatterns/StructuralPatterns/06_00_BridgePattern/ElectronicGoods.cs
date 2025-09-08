@@ -3,9 +3,20 @@
 // Abstraction
 public abstract class ElectronicGoods
 {
-    public IPrice Price { get; set; }
+    public IPrice Price;
+    public string type;
+    public double cost;
     public string ProductType { get; set; }
-    public abstract void Details();
+
+    public ElectronicGoods (IPrice Price)
+    {
+        this.Price = Price;
+    }
+
+    public void Details()
+    {
+        Price.DisplayDetails(type, cost);
+    }
 
     public void Discount(int percentage)
     {

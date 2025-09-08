@@ -8,8 +8,10 @@ public class Television : ElectronicGoods
     * Delegating the task
     * to the Implementor object.
     */
-    public override void Details()
+
+    public Television(IPrice price) : base(price)
     {
-        Price.DisplayDetails(ProductType);
+        this.type = "Television";
+        this.cost = 2000;
     }
 }
