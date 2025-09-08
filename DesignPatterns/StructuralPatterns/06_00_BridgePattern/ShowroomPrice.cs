@@ -5,9 +5,9 @@
 
 public class ShowroomPrice : IPrice
 {
-    public void DisplayDetails(string productType)
+    public void DisplayDetails(string product, double price)
     {
-        Console.Write($"\n{productType} price at showroom is : 3000$");
+        Console.Write($"\n{product} price at showroom is : {price}$");
     }
 
     public void GetDiscount(int percentage)

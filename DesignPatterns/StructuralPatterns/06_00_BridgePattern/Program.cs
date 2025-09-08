@@ -3,17 +3,29 @@
 using _06_00_BridgePattern;
 
 Console.WriteLine("Verifying the market price of a television.");
-ElectronicGoods eItem = new Television();
-eItem.ProductType = "Sony Television";
-// Verifying online price
-IPrice price = new OnlinePrice();
-eItem.Price = price;
 
+#region Television
+
+ElectronicGoods eItem = new Television(new OnlinePrice());
 eItem.Details();
 eItem.Discount(5);
 
-// Verifying showroom price
-price = new ShowroomPrice();
-eItem.Price = price;
+eItem = new Television(new ShowroomPrice());
 eItem.Details();
-eItem.Discount(4);
+eItem.Discount(10);
+
+#endregion
+
+#region DVD
+
+eItem = new DVD(new OnlinePrice());
+eItem.Details();
+eItem.Discount(7);
+
+eItem = new DVD(new ShowroomPrice());
+eItem.Details();
+eItem.Discount(9);
+
+#endregion
+
+Console.ReadLine();
