@@ -6,7 +6,7 @@ public abstract class Number
     private int numberValue;
     private string type;
 
-    public Number(int numberValue, string type)
+    public Number(string type , int numberValue)
     {
         this.type = type;
         this.numberValue = numberValue;

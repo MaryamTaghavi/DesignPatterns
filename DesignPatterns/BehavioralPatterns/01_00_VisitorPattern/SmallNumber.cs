@@ -3,7 +3,7 @@
 // ConcreteElement
 public class SmallNumber : Number
 {
-    public SmallNumber(int numberValue, string type) : base(numberValue, type)
+    public SmallNumber(string type , int numberValue) : base(type ,numberValue)
     {
     }
 

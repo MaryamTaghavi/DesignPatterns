@@ -5,4 +5,5 @@
 public interface IVisitor
 {
     void VisitSmallNumbers(SmallNumber number);
+    void VisitBigNumbers(BigNumber number);
 }
