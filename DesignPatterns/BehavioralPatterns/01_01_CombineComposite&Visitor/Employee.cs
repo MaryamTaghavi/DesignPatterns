@@ -1,5 +1,6 @@
 ﻿namespace _01_01_CombineComposite_Visitor;
 
+// Leaf node
 public class Employee : IEmployee
 {
     public string Name { get; set; }
