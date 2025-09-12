@@ -7,15 +7,8 @@
 
  */
 
-var colorNames = new[] { "Red", "Blue", "Green" };
+using SMSExample;
 
-var hexCodes = new[] { "0123", "125" };
+ProviderCollection providerCollection = new ProviderCollection();
 
-var colors = colorNames.Zip(hexCodes, (name, hex) => new
-{
-    ColorName = name,
-    Hex = hex
-}) ;
-
-Console.WriteLine(colors);
 Console.ReadLine();
