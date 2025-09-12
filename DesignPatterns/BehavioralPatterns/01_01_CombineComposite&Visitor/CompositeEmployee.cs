@@ -36,9 +36,4 @@ public class CompositeEmployee : IEmployee
     {
         visitor.VisitEmployee(this);
     }
-
-    public void DisplayDetails()
-    {
-        throw new NotImplementedException();
-    }
 }
