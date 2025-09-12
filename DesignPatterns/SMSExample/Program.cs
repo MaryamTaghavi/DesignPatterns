@@ -7,3 +7,15 @@
 
  */
 
+var colorNames = new[] { "Red", "Blue", "Green" };
+
+var hexCodes = new[] { "0123", "125" };
+
+var colors = colorNames.Zip(hexCodes, (name, hex) => new
+{
+    ColorName = name,
+    Hex = hex
+}) ;
+
+Console.WriteLine(colors);
+Console.ReadLine();

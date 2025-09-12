@@ -1,10 +1,10 @@
 ﻿namespace SMSExample;
 
-public abstract class Providers
+public abstract class Provider
 {
     public string Name { get; set; }
 
-    public Providers(string Name)
+    public Provider(string Name)
     {
         this.Name = Name;
     }
