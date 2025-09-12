@@ -10,7 +10,7 @@ public class Employee : IEmployee
 
     public void Accept(IVisitor visitor)
     {
-        visitor.VisitEmployees(this);
+        visitor.VisitEmployee(this);
     }
 
     public void DisplayDetails()

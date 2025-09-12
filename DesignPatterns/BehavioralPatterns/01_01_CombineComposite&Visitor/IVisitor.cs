@@ -3,7 +3,7 @@
 public interface IVisitor
 {
     // leaf nodes
-    void VisitEmployees(Employee  employee);
+    void VisitEmployee(Employee  employee);
 
     // composite nodes
     void VisitEmployee(CompositeEmployee employee);
