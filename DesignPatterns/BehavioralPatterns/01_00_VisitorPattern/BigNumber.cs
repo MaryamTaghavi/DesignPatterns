@@ -9,6 +9,10 @@ public class BigNumber : Number
 
     public override void Accept(IVisitor visitor)
     {
-        visitor.VisitBigNumbers(this);
+        // با این تغییر رعایت encapsulation میکنیم
+        // در واقع متد را overload میکنیم
+        // visitor.VisitBigNumbers(this);
+
+        visitor.VisitNumbers(this);
     }
 }

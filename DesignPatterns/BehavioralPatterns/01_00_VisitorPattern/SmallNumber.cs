@@ -9,6 +9,10 @@ public class SmallNumber : Number
 
     public override void Accept(IVisitor visitor)
     {
-        visitor.VisitSmallNumbers(this);
+        // با این تغییر رعایت encapsulation میکنیم
+        // در واقع متد را overload میکنیم
+        // visitor.VisitSmallNumbers(this);
+
+        visitor.VisitNumbers(this);
     }
 }

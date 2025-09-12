@@ -3,7 +3,11 @@
 // ConcreteVisitor
 public class MultipleVisitor : IVisitor
 {
-    public void VisitBigNumbers(BigNumber number)
+    // با این تغییر رعایت encapsulation میکنیم
+    // در واقع متد را overload میکنیم
+
+    // public void VisitBigNumbers(BigNumber number)
+    public void VisitNumbers(BigNumber number)
     {
         Number currentNumber = number as Number;
 
@@ -12,7 +16,10 @@ public class MultipleVisitor : IVisitor
         Console.WriteLine($"{currentNumber.Type} is {currentNumber.NumberValue}; I convert it as:{temp * 4} for rest of my code.");
     }
 
-    public void VisitSmallNumbers(SmallNumber number)
+    // با این تغییر رعایت encapsulation میکنیم
+    // در واقع متد را overload میکنیم
+    //public void VisitSmallNumbers(SmallNumber number)
+    public void VisitNumbers(SmallNumber number)
     {
         Number currentNumber = number as Number;
 
