@@ -4,6 +4,12 @@
 
 public interface IVisitor
 {
-    void VisitSmallNumbers(SmallNumber number);
-    void VisitBigNumbers(BigNumber number);
+    // با این تغییر رعایت encapsulation میکنیم
+    // در واقع متد را overload میکنیم
+
+    void VisitNumbers(SmallNumber number);
+    void VisitNumbers(BigNumber number);
+
+    //void VisitSmallNumbers(SmallNumber number);
+    //void VisitBigNumbers(BigNumber number);
 }
