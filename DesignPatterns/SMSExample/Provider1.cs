@@ -1,8 +1,8 @@
 ﻿namespace SMSExample;
 
-public class Provider1 : Providers , ISendSMS
+public class Provider1 : Provider , ISendSMS
 {
-    Provider1(string Name) : base(Name) { }
+    public Provider1(string Name) : base(Name) { }
     public void Send(string message)
     {
         Console.WriteLine($"Provider1 send {message}");

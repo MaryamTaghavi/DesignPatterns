@@ -7,3 +7,8 @@
 
  */
 
+using SMSExample;
+
+ProviderCollection providerCollection = new ProviderCollection();
+
+Console.ReadLine();
