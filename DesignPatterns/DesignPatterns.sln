@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSExample", "SMSExample\SM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_00_VisitorPattern", "BehavioralPatterns\01_00_VisitorPattern\01_00_VisitorPattern.csproj", "{8389171E-082E-4ACF-A7AB-C3825627F571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_01_CombineComposite&Visitor", "BehavioralPatterns\01_01_CombineComposite&Visitor\01_01_CombineComposite&Visitor.csproj", "{BA6D8FCE-6D3C-4DBE-B9BA-7CA7EF1FB7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_01_CombineComposite&Visitor", "BehavioralPatterns\01_01_CombineComposite&Visitor\01_01_CombineComposite&Visitor.csproj", "{BA6D8FCE-6D3C-4DBE-B9BA-7CA7EF1FB7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSendMessage", "ManagementSendMessage\ManagementSendMessage.csproj", "{2CA63458-8E94-435C-BA11-A0D6EE5AF372}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{BA6D8FCE-6D3C-4DBE-B9BA-7CA7EF1FB7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA6D8FCE-6D3C-4DBE-B9BA-7CA7EF1FB7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA6D8FCE-6D3C-4DBE-B9BA-7CA7EF1FB7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA63458-8E94-435C-BA11-A0D6EE5AF372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA63458-8E94-435C-BA11-A0D6EE5AF372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA63458-8E94-435C-BA11-A0D6EE5AF372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA63458-8E94-435C-BA11-A0D6EE5AF372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
